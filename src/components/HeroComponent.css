@@ -1,0 +1,110 @@
+.hero{
+    height: 100vh;
+    width: 100%;
+    background: url('/src/img/hero-img4.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+.hero .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .title-wrapper{
+     width: 80%;
+     height: 40%;
+     text-align: center;
+     border-radius: 100%;
+     padding: 3.5rem;
+     background-image: linear-gradient(to bottom, rgba(0,0,0,0.80),transparent);
+     transition: opacity 1s ease-in-out;
+ }
+ 
+ .titles{
+     opacity: 0;
+     transform: translateY(-100%);
+     animation: down 2s forwards;
+ }
+ .large-title{
+     font-family: var(--secondary-font);
+     font-weight: lighter;
+     color: #e8a136;
+     font-size: 10rem;
+     line-height: 80%;
+ }
+ .description{
+     opacity: 0;
+     transform: translateY(100%);
+     animation: bottomUp 2s forwards; 
+     animation-delay: 0.2s;
+ }
+ .middle-title{
+     color: white;
+     font-weight: lighter;
+     font-size: 2.5rem;
+     text-transform: uppercase;
+     line-height: 80%;
+     margin-bottom: 1rem;
+ }
+ .seperator{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-bottom: 1rem;
+ }
+ .line{
+    width: 100%;
+    max-width: 8.4rem;
+    height: .25rem;
+    background-color: #fff;
+    position: relative;
+    opacity: 0;
+    animation: reveal 2s forwards; 
+    animation-delay: 0.5s;
+}
+
+.line-right::before,
+.line-left::before{
+    content: '';
+    position: absolute;
+    border: 50%;
+    transform: translateY(-40%);
+    border: .6rem solid transparent;
+}
+
+.line-right::before{
+    border-right-color: #fff;
+    right: 0;
+}
+
+.line-left::before{
+    border-left-color: #fff;
+    left: 0;
+}
+
+.description h6{
+    color: white;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin-bottom: 1rem;
+}
+
+.explore-btn{
+    font-size: 1.5rem;
+    padding: 0.4rem 0.6rem;
+    border-radius: 0.3rem;
+    color: var(--body-font-color);
+    background: white;
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 0.1rem;
+    transition: background-color .8s ease-in-out;
+}
+
+.explore-btn:hover{
+    background-color: var(--body-font-color);
+    color: white;
+}

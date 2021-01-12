@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { faAsterisk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import './HeroComponent.css';
 class Hero extends Component{
     render(){
         return (

@@ -1,0 +1,54 @@
+/* Location and Hours */
+.location{
+    background: url('/src/img/locationBG2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+}
+
+.panel-title{
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    padding: 0.5rem 0;
+    grid-area: header;
+    border-bottom: 0.1rem solid rgb(143, 139, 139);
+}
+
+.location-part{
+    padding: 1rem 0;
+    grid-area: location;
+}
+
+.hours-part{
+    padding: 1rem 0;
+    grid-area: hour;
+}
+
+.panel-item-list {
+    list-style: none;
+    font-style: italic;
+    color: #dddada;
+    font-size: 1.1rem;
+}
+
+.panel-item-list li{
+    padding: 1rem 0;
+}
+.panel{
+    border-radius: 0.8rem;
+    font-family: var(--main-font);
+    padding: 2rem;
+    margin: 0 auto;
+    color: white;
+    background-color: rgba(19, 18, 18, 0.8);
+    text-align: center;
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "header header"
+      "location hour";
+}
