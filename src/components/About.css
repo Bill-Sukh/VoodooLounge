@@ -1,0 +1,41 @@
+.about-hero{
+    background-image: url("/src/img/aboutPage2.jpg") !important;
+    margin-bottom: 3rem;
+}
+.about-page-img{
+    width: 100%;
+    max-width: 100vw;
+    height: 100vh;
+}
+.about-title{
+    color: white;
+    font-size: 5rem;
+    padding: 2rem;
+    border-bottom: 0.3rem dotted #c59d5f;
+}
+.about-us-story{
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+    font-family: var( --main-font);
+}
+
+.story-title{
+    font-weight: bold;
+    color: var(--main-font-color-dark);   
+    text-transform: uppercase;
+}
+
+.small{
+    font-size: 2rem;
+}
+
+.story-paragraph{
+    font-weight: lighter;
+    font-size: 1.7rem !important;
+}
+
+.updated-date{
+    font-style: italic;
+}
