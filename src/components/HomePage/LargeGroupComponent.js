@@ -13,7 +13,7 @@ function LargeGroup(){
                             assumenda rem. Error, quisquam reiciendis
                             laudantium expedita saepe ducimus voluptates!</p>
                         <div className="p-1">
-                            <a href="#" className="inquire explore-btn">Inquire now</a>   
+                            <a href="#" className="btn inquire">Inquire now</a>   
                         </div> 
                     </div>
                 </div>         

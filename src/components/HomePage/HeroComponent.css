@@ -91,20 +91,3 @@
     font-weight: lighter;
     margin-bottom: 1rem;
 }
-
-.explore-btn{
-    font-size: 1.5rem;
-    padding: 0.4rem 0.6rem;
-    border-radius: 0.3rem;
-    color: var(--body-font-color);
-    background: white;
-    text-transform: uppercase;
-    font-weight: lighter;
-    letter-spacing: 0.1rem;
-    transition: background-color .8s ease-in-out;
-}
-
-.explore-btn:hover{
-    background-color: var(--body-font-color);
-    color: white;
-}

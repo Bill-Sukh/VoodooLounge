@@ -124,6 +124,23 @@ section{
     color: rgb(44, 43, 43);
 }
 
+.btn{
+    font-size: 1.5rem;
+    padding: 0.4rem 0.6rem;
+    border-radius: 0.3rem;
+    color: var(--body-font-color);
+    background: white;
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 0.1rem;
+    transition: background-color .5s ease-in-out;
+}
+
+.btn:hover{
+    background-color: var(--body-font-color);
+    color: white;
+}
+
 /* Media query */
 @media screen and (min-width: 900px){
     .menu-toggle{

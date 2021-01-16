@@ -72,7 +72,7 @@ function Footer(){
                         </div>
                     </div>
                     <div className="copyright">
-                                <p> Powered by Bill-Sukh </p>
+                            <p> Powered by Bill-Sukh </p>
                     </div> 
                 </div> 
             </footer>
