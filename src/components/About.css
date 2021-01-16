@@ -11,7 +11,7 @@
     color: white;
     font-size: 5rem;
     padding: 2rem;
-    border-bottom: 0.3rem dotted #c59d5f;
+    border: 0.2rem dotted rgb(177, 174, 174);
 }
 .about-us-story{
     text-align: center;

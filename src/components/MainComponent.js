@@ -6,7 +6,7 @@ import LocationPage from './Location';
 import MenuPage from './Menu';
 import GroupDiningPage from './GroupDining';
 import OrderPage from './Order';
-import ContactPage from './Contact';
+import Contact from './Contact';
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
 
@@ -24,7 +24,7 @@ function Main() {
               <Route path='/Menu' component={MenuPage} />  
               <Route path='/Group' component={GroupDiningPage} />
               <Route path='/Order' component={OrderPage} />
-              <Route path='/Contact' component={ContactPage} />
+              <Route path='/Contact' component={Contact} />
             </Switch>
             <Footer />
           </>    
