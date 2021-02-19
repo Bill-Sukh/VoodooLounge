@@ -5,9 +5,10 @@ import Success from './ContactPage/Success';
 import Form from './ContactPage/Form';
 
 function Contact(){
-    const [isSubmitted, SetIsSubmitted] = useState(false);
+    const [isSubmitted, setIsSubmitted] = useState(false);
+
     function submitForm(){
-        SetIsSubmitted(true);
+        setIsSubmitted(true);
     }
 
     return(
@@ -17,8 +18,8 @@ function Contact(){
             ) : (
             <Success />
             )}
-            <h1>{isSubmitted}</h1>
         </>
     );
 }
+
 export default Contact;

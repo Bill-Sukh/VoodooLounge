@@ -24,7 +24,7 @@ const Form = ({ submitForm }) => {
                         waitlist or give your preferred location a call.
                     </p>
                 </div>
-                <form className="contact-form" onSubmit={handleSubmit}>
+                <form className="contact-form" onSubmit={handleSubmit} noValidate>
                     <fieldset>
                         <input 
                             id = "name"
@@ -83,7 +83,7 @@ const Form = ({ submitForm }) => {
                         </div>
                     </fieldset>
                     <fieldset>
-                        <button className="contact-submit btn" name="submit" type="submit" id="contact-submit">Submit</button>
+                        <button className="contact-submit btn mx-auto" name="submit" type="submit" id="contact-submit">Submit</button>
                     </fieldset>
                 </form>
             </div>

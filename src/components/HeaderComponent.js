@@ -19,15 +19,14 @@ function Header(){
                     </div>
                     <div>
                         <ul className={click ? 'menu open' : 'menu'}>
-                            <li ><Link to="/About">About</Link></li>
-                            <li><Link to="/Location">Location</Link></li>
-                            <li><Link to="/Menu">Menu</Link></li>
-                            <li><Link to="/Group">Group Dining</Link></li>
-                            <li><Link to="/Order">Order online</Link></li>
-                            <li><Link to="/Contact">Contact</Link></li>
+                            <li onClick={handleClick}><Link to="/About">About</Link></li>
+                            <li onClick={handleClick}><Link to="/Location">Location</Link></li>
+                            <li onClick={handleClick}><Link to="/Menu">Menu</Link></li>
+                            <li onClick={handleClick}><Link to="/Group">Group Dining</Link></li>
+                            <li onClick={handleClick}><Link to="/Order">Order online</Link></li>
+                            <li onClick={handleClick}><Link to="/Contact">Contact</Link></li>
                         </ul>
                     </div>
-
                 </nav>
             </header>
         </>    

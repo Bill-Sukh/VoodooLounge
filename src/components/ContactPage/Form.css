@@ -4,28 +4,15 @@
     justify-content: center;
     align-items: center;
 }
+
 .form-title{
     text-align: center;
     padding-top: 15rem;
-    width: 40%;
+    width: 80%;
 }
+
 .contact-form{
-    width: 50%;
-    text-align: center;
-}
-
-#contact h3 {
-  display: block;
-  font-size: 30px;
-  font-weight: 300;
-  margin-bottom: 10px;
-}
-
-#contact h4 {
-  margin: 5px 0 15px;
-  display: block;
-  font-size: 13px;
-  font-weight: 400;
+    width: 85%;
 }
 
 .contact-form fieldset {
@@ -43,6 +30,7 @@
   color: red;
   font-size: 1.3rem; 
 }
+
 .contact-form input, textarea, select {
   width: 100%;
   border: 1px solid #ccc;
@@ -58,6 +46,7 @@
 }
 
 .contact-submit{
+  width: 10rem;
   background-color: var(--main-font-color-dark) !important;
   color: white !important;
   font-size: 1rem !important;

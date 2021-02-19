@@ -10,10 +10,10 @@ function Location (){
                         <div className="location-part panel-item">
                             <h2 className="panel-item-header">Location</h2>
                             <ul className="panel-item-list">
-                                <li>15435 Founders Ln, </li>
-                                <li>Apple Valley, Minnesota 55124</li>
+                                <li>15435 Archmage Ln, </li>
+                                <li>Mystics Valley, Minnesota 55124</li>
                                 <li>(952) 683-1222</li>
-                                <li>applevalley@voodoolounge.com</li>
+                                <li>MysticsValley@voodoolounge.com</li>
                             </ul>   
                         </div>
                         <div className="hours-part">
