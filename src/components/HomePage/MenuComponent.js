@@ -20,10 +20,10 @@ function Menu(){
                         <a href="#" className="global-header-btn">View the full menu</a>
                     </div>
                     <div className="menu-images">
-                        <div className="menu-img"><img src="/img/menu-group-1.jpg" alt=""/></div>
-                        <div className="menu-img"><img src="/img/menu-group-2.jpg" alt=""/></div>
-                        <div className="menu-img"><img src="/img/menu-group-3.jpg" alt=""/></div>
-                        <div className="menu-img"><img src="/img/menu-group-4.jpg" alt=""/></div>
+                        <div className="menu-img"><img src="/images/menu-group-1.jpg" alt=""/></div>
+                        <div className="menu-img"><img src="/images/menu-group-2.jpg" alt=""/></div>
+                        <div className="menu-img"><img src="/images/menu-group-3.jpg" alt=""/></div>
+                        <div className="menu-img"><img src="/images/menu-group-4.jpg" alt=""/></div>
                     </div>
                 </div>
             </section>

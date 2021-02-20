@@ -19,7 +19,7 @@ function About(){
 
                         </div>
                         <div className="section-img">
-                            <img src="/img/aboutImg.jpg"  alt="aboutImg" />
+                            <img src="/images/aboutImg.jpg"  alt="aboutImg" />
                         </div>
                     </div>
                 </section>       

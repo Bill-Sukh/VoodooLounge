@@ -18,7 +18,7 @@ function Order(){
                         <a href="#" className="global-header-btn">start your order</a>
                     </div>
                     <div className="section-img">
-                        <img src="/img/order.jpg" alt="" />
+                        <img src="/images/order.jpg" alt="" />
                     </div>
                 </div>
             </section>

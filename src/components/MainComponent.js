@@ -3,7 +3,7 @@ import { Switch, Route, Redirect } from 'react-router-dom';
 import Home from './Home';
 import AboutPage from './About';
 import LocationPage from './Location';
-import MenuPage from './Menu';
+import MenuPage from './MenuPage/Menu';
 import GroupDiningPage from './GroupDining';
 import OrderPage from './Order';
 import Contact from './Contact';

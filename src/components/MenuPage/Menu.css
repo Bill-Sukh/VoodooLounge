@@ -1,0 +1,148 @@
+.menu-container{
+    padding: 15rem 0;
+}
+
+.menu-header{
+    margin-bottom: 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+.menu-header h1{
+    margin-bottom: 1rem;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.3rem;
+    font-size: 4rem;
+    color: var(--main-font-color-dark);
+}
+
+.yellow-line{
+    width: 10rem;
+    height: 0.4rem;
+    background-color: var(--secondary-font-color);
+    margin: 0 auto;
+}
+
+.category-btns{
+    width: 100%;
+    margin-bottom: 6rem;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.category-btn{
+    padding: 0.5rem 1.2rem;
+    margin-right: 1rem;
+    font-size: 1.8rem;
+    color: var(--secondary-font-color);
+    border-radius: 0.4rem;
+    border-color: var(--secondary-font-color);
+    cursor: pointer;
+    background-color: rgb(250, 246, 246);
+    text-transform: capitalize;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.menu-items{
+    margin: 0 auto;
+    width: 70vw;
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-row-gap: 5rem;
+}
+
+.menu-item{
+    display: grid;
+    grid-row-gap: 1rem;
+}
+
+.menu-item-image {
+    padding: 0 1rem;
+}
+.menu-item-image img{
+    border: 0.4rem solid var(--secondary-font-color);
+    border-radius: 1rem;
+    object-fit: cover;
+    height: 30rem;  
+}
+
+.price-and-title{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1px dotted grey;
+    margin-bottom: 0.8rem;
+}
+
+.price-and-title h4{
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.price-and-title p{
+    color: #b18c56;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.menu-item-details p{
+    font-size: 1.6rem;
+}
+
+@media screen and (min-width: 700px){
+    .menu-items {
+        grid-template-columns: 1fr;
+        grid-row-gap: 3rem;
+        width: 80vw;
+    }
+
+    .menu-item {
+        grid-template-columns: 1fr 1fr;
+        gap: 0 1rem;
+        padding: 0 3rem;
+    }
+
+    .menu-item-image img{
+        height: 22rem;
+    }
+
+    .filter-btn{
+        margin-right: 1rem;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .menu-items {
+        grid-template-columns: 1fr 1fr;  
+        grid-column-gap: 2rem; 
+        grid-row-gap: 3rem;
+        width: 80vw;
+        padding: 0 2rem;
+    }
+
+    .menu-item {
+        grid-template-columns: 1fr 1fr;
+        gap: 0 1rem;   
+        padding: 0 2rem;
+    }
+
+    .filter-btn{
+        margin-right: 1rem;
+        font-size: 1rem;
+    }
+    
+    .menu-item-image{
+        padding: 0 1rem;
+    }
+
+    .menu-item-image img{
+        height: 22rem;
+    }
+}
