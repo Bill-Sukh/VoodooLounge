@@ -64,6 +64,7 @@ img{
 .menu-item-image {
     padding: 0 1rem;
 }
+
 .menu-item-image img{
     border: 0.4rem solid var(--secondary-font-color);
     border-radius: 1rem;

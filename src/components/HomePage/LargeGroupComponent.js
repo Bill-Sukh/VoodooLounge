@@ -1,5 +1,4 @@
 import React from 'react';
-import './LargeGroupComponent.css';
  
 function LargeGroup(){
     return(

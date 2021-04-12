@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from 'react-router-dom';
-import './HeaderComponent.css';
+
 function Header(){
     const[click, setClick] = useState(false);
     const handleClick = () => setClick(!click); 
 
     return (
         <>
-            <header className="header">
+            <header className="header-section">
                 <nav>
                     <div >
                         <Link to="/Home" className="restaurant-name"> Voodoo Lounge </Link>

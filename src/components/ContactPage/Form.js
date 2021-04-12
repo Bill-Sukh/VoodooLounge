@@ -1,19 +1,17 @@
 import React from 'react';
 import validateForm from './validateForm';
 import FormSignUp from './FormSignUp';
-import './Form.css';
 
-// function Form(submitForm){
-//     const {handleChange, values, handleSubmit, errors} = FormSignUp(validateForm, submitForm);
-const Form = ({ submitForm }) => {
+const Form = ({ submitForm, getSubmittedUser }) => {
     const { handleChange, handleSubmit, values, errors } = FormSignUp(
+      getSubmittedUser,
       submitForm,
       validateForm
     );
     
     return(
         <>
-            <div className="container contact-form-container mb-8">  
+            <div className="contact-form-container mb-8">  
                 <div className="form-title mb-5">               
                     <h1 className="middle-title story-title mb-5">Contact Us</h1>
                     <h6 className="contact-title small mb-2">Please note: </h6> 

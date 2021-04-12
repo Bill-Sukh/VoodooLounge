@@ -1,0 +1,151 @@
+.contact-page-container .contact-form-container{
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8rem;
+}
+
+.contact-page-container .form-title{
+    text-align: center;
+    padding-top: 10rem;
+    width: 80%;
+}
+
+.contact-page-container .contact-form{
+    width: 85%;
+}
+
+.contact-page-container .contact-form fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-page-container .error-message p{
+  color: red;
+  font-size: 1.3rem; 
+}
+
+.contact-page-container .contact-form input, textarea, select {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-family: var(--body-font);
+}
+
+.contact-page-container .contact-title{
+  text-transform: uppercase;
+  font-size: 1.5rem !important;
+}
+
+.contact-page-container .contact-submit{
+  width: 10rem;
+  background-color: var(--main-font-color-dark) !important;
+  color: white !important;
+  font-size: 1rem !important;
+  padding: 1rem !important;
+  cursor: pointer;
+}
+
+.contact-page-container .contact-submit:hover{
+  background-color: var(--secondary-font-color) !important;
+}
+
+.contact-page-container .modal-overlay{
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.733);
+  transition: all 2s ease-in-out !important;
+}
+
+.contact-page-container .modal-body{
+  padding: 20rem 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.contact-page-container .modal{
+  margin: 0 auto;
+  width: 45rem;
+  background-color: white;
+  padding: 0 4rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.contact-page-container .modal h1{
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  margin-top: 7rem;
+}
+
+.contact-page-container .modal .circle{
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  transform: translateY(-50%);
+  margin-bottom: 5rem;
+}
+
+.contact-page-container .modal .circle i{
+  background-color: var(--secondary-font-color);
+  font-size: 6rem;
+  color: white;
+  border-radius: 100%;
+  padding: 1.3rem 1.8rem;
+}
+
+.contact-page-container .modal button{
+  margin: 0 auto;
+  background-color: #424242;
+  outline: none;
+  border: none;
+  color: white;
+  border-radius: .5rem;
+  font-size: 1.6rem;
+  padding: 1rem 0;
+  font-weight: lighter;
+  cursor: pointer;
+  width: 28rem;
+  margin-bottom: 2.9rem;
+}
+
+.contact-page-container .modal p{
+  font-size: 1.7rem;
+  color: #6A6868;
+}
+
+.contact-page-container .modal .m-1{
+  margin-bottom: 2.9rem;
+}
+
+.contact-page-container .modal .m-0{
+  margin-bottom: 1rem;
+}
+
+.contact-page-container .modal .submitted-user{
+  font-weight: bolder;
+}

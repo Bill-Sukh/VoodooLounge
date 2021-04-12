@@ -1,0 +1,93 @@
+.about-page-container{
+    font-family: 'Open sans' ,serif;
+}
+.about-page-container .main-hero-container{
+    background-image: url("/src/img/about-1.jpg") !important;
+    margin-bottom: 3rem;
+}
+.about-page-container .about-page-img{
+    width: 100%;
+    max-width: 100vw;
+    height: 100vh;
+}
+.about-page-container .about-title{
+    color: white;
+    font-size: 5rem;
+    padding: 2rem;
+    border: 0.2rem dotted rgb(177, 174, 174);
+}
+.about-page-container .about-us-story{
+    text-align: center;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    font-family: var( --main-font);
+}
+
+.story-title{
+    font-weight: bold;
+    color: var(--main-font-color-dark);   
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.about-page-container .small{
+    font-size: 1.8rem;
+}
+
+.story-paragraph{
+    font-weight: lighter;
+    font-size: 1.7rem !important;
+}
+
+.about-page-container .updated-date{
+    font-style: italic;
+}
+
+.about-page-container .picture-story-container{
+    padding: 2rem 1.2rem;
+}
+
+.about-page-container .picture-story-container .picture-story{
+    position: relative;
+}
+
+.about-page-container .picture-story img{
+    vertical-align: bottom;
+}
+
+.about-page-container .picture-story .learn-more{
+    padding: 0 3rem;
+    transform: translateY(-10%);
+    height: inherit;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.about-page-container .picture-story .learn-more .cheers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    height: 100%;
+    padding: 6rem 3rem;
+    background-color: #dad6d0;
+}
+.about-page-container .picture-story .learn-more h2{
+    font-size: 2.3rem;
+    color: rgb(17, 17, 17);  
+    margin-bottom: 2rem;
+}
+
+.about-page-container .picture-story .learn-more p{
+    font-size: 1.3rem;  
+    margin-bottom: 3rem;
+}
+
+.about-page-container .picture-story .learn-more .inquire{
+    width: 20rem;
+    margin: 0 auto;
+    font-size: 1rem !important;
+    font-family: var(--body-font);
+}
+

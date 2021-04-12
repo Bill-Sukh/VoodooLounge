@@ -4,29 +4,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { IconContext } from "react-icons";
 import { Link } from 'react-router-dom';
 import {FaTwitter, FaFacebookSquare, FaPinterest, FaLinkedinIn, FaTripadvisor} from 'react-icons/fa';
-import './FooterComponent.css';
 
 function Footer(){
     return(
         <>
-            <footer>
+            <footer className="footer-section">
                 <div className="container">
                     <div className="back-to-top">
                         <a href="#hero" className="up-button"><FontAwesomeIcon icon={faChevronUp}/></a>
                     </div>
                     <div className="footer-content">
-                        <div className="global-header">
-                            <div className="title mb-2">
-                                <h2 className="footer-title global-middle-title">About us</h2>
-                            </div>
-                            <div className="asterisk"><FontAwesomeIcon icon={faAsterisk}/></div>
-                            <p className="global-description mb-2">Lorem ipsum dolor sit 
-                                amet consectetur adipisicing elit. Consectetur
-                                deleniti nesciunt commodi ad porro quam nisi voluptas, 
-                                saepe accusamus nemo magni dolores voluptatum,
-                                alias quis voluptatibus dicta ipsum cum debitis.
-                            </p>
-                        </div>
                         <div className="footer-content-divider animate-bottom">
                             <div className="social-menu">
                                 <h4>Follow along</h4>

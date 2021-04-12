@@ -1,12 +1,12 @@
 import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
-import Home from './Home';
-import AboutPage from './About';
-import LocationPage from './Location';
+import Home from './HomePage/Home';
+import AboutPage from './AboutPage/About';
+import LocationPage from './LocationPage/Location';
 import MenuPage from './MenuPage/Menu';
-import GroupDiningPage from './GroupDining';
-import OrderPage from './Order';
-import Contact from './Contact';
+import GroupDiningPage from './GroupDiningPage/GroupDining';
+import OrderPage from './OrderPage/Order';
+import Contact from './ContactPage/Contact';
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
 

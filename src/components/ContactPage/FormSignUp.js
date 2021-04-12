@@ -1,6 +1,6 @@
 import {useState, useEffect} from 'react';
 
-const FormSignUp = (callback, validate) => {
+const FormSignUp = (getSubmittedUser,submitForm, validate) => {
     const[values, setValues] = useState({
         name: '',
         email: '',
@@ -28,8 +28,9 @@ const FormSignUp = (callback, validate) => {
 
     useEffect(
         () => {
-          if (Object.keys(errors).length === 0 && isSubmitting) {
-            callback();
+          if (Object.keys(errors).length === 0 && isSubmitting){
+            getSubmittedUser(values.name);
+            submitForm(true);        
           }
         },
         [errors]

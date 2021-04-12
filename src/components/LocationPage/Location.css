@@ -1,0 +1,98 @@
+.location-page-container{
+    width: 100%;
+    padding: 0;
+}
+
+.location-page-container .coming-soon {
+    width: 100%;
+    text-align: center;
+    padding: 8rem 3rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.location-page-container .coming-soon .header{
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 2rem;
+}
+
+.location-page-container .coming-soon .coming-soon-locations{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding: 0 3rem;
+}
+
+.location-page-container .coming-soon .coming-soon-locations .location{
+    font-size: 1.8rem;
+}
+
+.location-page-container .coming-soon .coming-soon-locations .location span{
+    font-weight: bolder;
+    color: black;
+}
+
+.location-page-container .my-slides{
+    position: relative;
+    width: 100%;
+}
+
+.carousel .slide img {
+    height: calc(100vh - 100px) !important;
+    object-fit: cover;
+}
+
+.location-page-container .carousel .control-prev.control-arrow:before {
+    border-right: 14px solid #fff !important;
+}
+
+.location-page-container .carousel .control-next.control-arrow:before {
+    border-left: 14px solid #fff !important;
+}
+.location-page-container .my-slides .details{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 3000;
+    background-color: rgba(0, 0, 0, 0.452);
+    right: 0;
+    left: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 4rem 0;
+    height: 100%;
+} 
+.location-page-container .my-slides .details .play-button{
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid transparent;
+    outline: none;
+}  
+.location-page-container .my-slides .details .texts{
+    flex: 1;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+.location-page-container .my-slides .details .title{
+    font-size: 5rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 2rem;
+}     
+.location-page-container .my-slides .details .description{
+    font-size: 2rem;
+    font-weight: 300;
+}    
+.location-page-container .my-slides .details .play-icon{
+    color: white;
+}       
+.location-page-container .my-slides .details .play-icon:hover{
+    fill: var(--secondary-font-color);
+}       
