@@ -4,39 +4,39 @@
 .about-page-container .main-hero-container{
     background-image: url("/src/img/about-1.jpg") !important;
     margin-bottom: 3rem;
-}
-.about-page-container .about-page-img{
-    width: 100%;
-    max-width: 100vw;
-    height: 100vh;
-}
-.about-page-container .about-title{
-    color: white;
-    font-size: 5rem;
-    padding: 2rem;
-    border: 0.2rem dotted rgb(177, 174, 174);
-}
-.about-page-container .about-us-story{
-    text-align: center;
-    margin: 0 auto;
-    padding: 3rem 2rem;
-    font-family: var( --main-font);
+    transition: all .3s ease-in-out;
 }
 
-.story-title{
-    font-weight: bold;
-    color: var(--main-font-color-dark);   
-    text-transform: uppercase;
+.about-page-container .main-hero-container .hero-title-container .hero-title{
     font-size: 3rem;
 }
 
-.about-page-container .small{
-    font-size: 1.8rem;
+.about-page-container .about-us-story{
+    text-align: center;
+    margin: 0 auto;
+    padding: 3rem 5rem;
 }
 
-.story-paragraph{
+.about-page-container .about-us-story .story-title{
+    color: var(--secondary-font-color);   
+    font-family: var(--secondary-font) !important;
+    font-size: 7rem; 
+    font-weight: lighter !important;
+    line-height: 80%;
+}
+
+.about-page-container .about-us-story .small{
+    font-size: 2.5rem;
     font-weight: lighter;
-    font-size: 1.7rem !important;
+    color: black;
+}
+
+.about-page-container .about-us-story .asterisk{
+    font-size: .9rem !important;
+}
+
+.about-page-container .about-us-story .story-paragraph{
+    font-size: 1.4rem !important;
 }
 
 .about-page-container .updated-date{
@@ -57,7 +57,7 @@
 
 .about-page-container .picture-story .learn-more{
     padding: 0 3rem;
-    transform: translateY(-10%);
+    transform: translateY(-10%) !important;
     height: inherit;
     text-align: center;
     display: flex;
@@ -84,10 +84,13 @@
     margin-bottom: 3rem;
 }
 
-.about-page-container .picture-story .learn-more .inquire{
-    width: 20rem;
-    margin: 0 auto;
+.about-page-container .picture-story .learn-more .inquire-btn{
+    background-color: var(--main-font-color-dark) !important;
+    color: white !important;
     font-size: 1rem !important;
-    font-family: var(--body-font);
+    padding: 1rem !important;
+    cursor: pointer;
 }
-
+.about-page-container .picture-story .learn-more .inquire-btn:hover{
+    background-color: rgb(105, 105, 105) !important;
+}

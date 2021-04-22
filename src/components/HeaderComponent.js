@@ -11,8 +11,8 @@ function Header(){
         <>
             <header className="header-section">
                 <nav>
-                    <div >
-                        <Link to="/Home" className="restaurant-name"> Voodoo Lounge </Link>
+                    <div className="header-logo">
+                        <Link to="/Home" ><img src="/images/logo/res-logo.png" alt="res-logo"/></Link>
                     </div>
                     <div className="menu-toggle" onClick={handleClick}>
                         <i className="hamburger-menu"><FontAwesomeIcon icon={click ? faTimes : faBars} /></i>

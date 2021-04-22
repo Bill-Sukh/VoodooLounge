@@ -11,13 +11,13 @@ const Form = ({ submitForm, getSubmittedUser }) => {
     
     return(
         <>
-            <div className="contact-form-container mb-8">  
+            <div className="contact-form-container">  
                 <div className="form-title mb-5">               
-                    <h1 className="middle-title story-title mb-5">Contact Us</h1>
-                    <h6 className="contact-title small mb-2">Please note: </h6> 
-                    <p className="global-description mb-2 story-paragraph">If you have feedback or concerns regarding your recent
+                    <h1 >Contact Us</h1>
+                    <h6 >Please note: </h6> 
+                    <p >If you have feedback or concerns regarding your recent
                         visit please refer to our feedback form here.</p>
-                    <p className="global-description mb-2 story-paragraph">
+                    <p>
                         Reservations, of any kind, cannot be placed via this contact form. Please use our online 
                         waitlist or give your preferred location a call.
                     </p>
@@ -71,7 +71,7 @@ const Form = ({ submitForm, getSubmittedUser }) => {
                             <option value="Donation">Donation Request</option>
                         </select>
                     </fieldset>
-                    <fieldset>
+                    <fieldset className="mb-5">
                         <textarea id="feedback" name="feedback" placeholder="Type your message here...." rows="7" 
                             value = {values.feedback}
                             onChange={handleChange}>

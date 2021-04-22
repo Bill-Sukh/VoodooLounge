@@ -20,7 +20,7 @@ class Hero extends Component{
                             </div>
                             <div className="description">
                                 <h6 className="bottom-title">Ready To Be Opened</h6>
-                                <a href="#" className="btn">Explore</a>
+                                <a href="#" className="btn explore-btn">Explore</a>
                             </div>
                         </div>
                     </div>

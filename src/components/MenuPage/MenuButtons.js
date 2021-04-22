@@ -4,7 +4,7 @@ function MenuButtons({categories,handleCategoryBtn}) {
         if(categories){
             const renderButtons = categories.map(function(item, index){
                 return <div key={index}>
-                            <button className="category-btn" onClick={() => handleCategoryBtn(item)}>
+                            <button className="btn category-btn" onClick={() => handleCategoryBtn(item)}>
                                 {item}
                             </button>
                         </div>

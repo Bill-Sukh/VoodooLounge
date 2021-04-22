@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Order(){
     return(
         <>
-            <section id="order_online">
+            <section id="order_online" className="order-section-container">
                 <div className="container white-section">
                     <div className="global-header">
                         <div className="title mb-2">

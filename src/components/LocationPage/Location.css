@@ -1,17 +1,17 @@
 .location-page-container{
     width: 100%;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .location-page-container .coming-soon {
     width: 100%;
     text-align: center;
     padding: 8rem 3rem;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .location-page-container .coming-soon .header{
-    font-size: 4rem;
+    font-size: 3.5rem;
     text-transform: uppercase;
     font-weight: 700;
     color: black;
@@ -23,11 +23,10 @@
     justify-content: center;
     justify-content: space-between;
     justify-content: space-around;
-    padding: 0 3rem;
 }
 
 .location-page-container .coming-soon .coming-soon-locations .location{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 .location-page-container .coming-soon .coming-soon-locations .location span{
@@ -41,7 +40,7 @@
 }
 
 .carousel .slide img {
-    height: calc(100vh - 100px) !important;
+    height: 100vh !important;
     object-fit: cover;
 }
 
@@ -82,12 +81,12 @@
     justify-content: center;
 }
 .location-page-container .my-slides .details .title{
-    font-size: 5rem;
+    font-size: 3rem;
     letter-spacing: 0.2rem;
     margin-bottom: 2rem;
 }     
 .location-page-container .my-slides .details .description{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 300;
 }    
 .location-page-container .my-slides .details .play-icon{
@@ -96,3 +95,105 @@
 .location-page-container .my-slides .details .play-icon:hover{
     fill: var(--secondary-font-color);
 }       
+
+.location-page-container .locations-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.location-page-container .locations-container .side{
+    overflow-y: scroll;
+    width: 100%;
+    max-height: 100%;
+    background-color: #dad6d0;
+    padding: 0 3.5rem;
+    transition: all .3s ease-in-out;
+}
+
+.location-page-container .locations-container .side  .location > *{
+    margin-bottom: 1rem;
+}
+
+.location-page-container .locations-container .side  .location{
+    padding: 2rem 0;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.329);
+}
+
+.location-page-container .locations-container .side .location .location-state{
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    color: black;
+}
+
+.location-page-container .locations-container .side .location .location-address,
+.location-page-container .locations-container .side .location .phone-number{
+    font-size: 1.4rem;
+    font-weight: lighter;
+}
+
+.location-page-container .locations-container .side .location .hours-container{
+    color: black;
+    font-weight: 600;
+}
+.location-page-container .locations-container .side .location .hours-container .underscore{
+    text-decoration: underline;
+}
+.location-page-container .locations-container .side .location .hours-container .title{
+    font-size: 2.1rem;
+    margin-bottom: 0.5rem;
+}
+.location-page-container .locations-container .side .location .hours-container .hours{
+    list-style: none;
+    font-size: 1.4rem;
+}
+.location-page-container .locations-container .side .location .hours-container .hours li{
+    margin-bottom: 0.3rem;
+}
+.location-page-container .locations-container .side .location .menu-availability{
+    font-size: 1.4rem;
+    font-weight: lighter;
+}
+
+.location-page-container .locations-container .side .location-btn{
+    font-size: 1rem;
+    color: white;
+    background-color: var(--main-font-color-dark);
+    cursor: pointer;
+    display: block;
+}
+
+.location-page-container .locations-container .side .location-btn:hover{
+    background-color: #997741;
+}
+
+.location-page-container .locations-container .map-image-container img{
+    display: none;
+}
+.location-page-container .locations-container .location-search .search-form{
+    padding: 2rem 0;
+}
+
+.location-page-container .locations-container .location-search {
+    padding: 2rem 0;
+}
+
+.location-page-container .locations-container .location-search label{
+    font-size: 1.3rem;
+    display: block;
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+
+.location-page-container .locations-container .location-search input{
+    outline: none;
+    padding: 0.8rem 0.5rem;
+    width: 100%;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.location-page-container .locations-container .location-search input::placeholder{
+    font-weight: lighter;
+    opacity: .5;
+}

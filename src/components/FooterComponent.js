@@ -47,7 +47,7 @@ function Footer(){
                                     </li>
                                 </ul>
                             </div>
-                            <div className="newslettter-container">
+                            <div className="newsletter-container">
                                 <h4>Newsletter</h4>
                                 <form action="" className="newsletter-form">
                                     <input type="text" className="newsletter-input" placeholder="Your email address..."/>

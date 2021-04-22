@@ -1,0 +1,127 @@
+.group-dining-container .main-hero-container{
+    background-image: url("../../img/group-dining.png") !important;
+    margin-bottom: 3rem;
+    transition: all .3s ease-in-out;
+    font-family: var(--primary-font) !important;
+}
+
+.group-dining-container .main-hero-container .hero-title-container{
+    flex-direction: column;
+    color: white;
+}
+
+.group-dining-container .main-hero-container .hero-title-container .title{
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 2rem;
+}     
+.group-dining-container .main-hero-container .hero-title-container .description{
+    font-size: 1.5rem;
+    font-weight: 300;
+}    
+
+.group-dining-container .group-dining-middle{
+    text-align: center;
+    padding: 0 2.2rem;
+    font-family: var(--primary-font);
+    margin-bottom: 7rem !important;
+}
+
+.group-dining-container .group-dining-middle p{
+    margin-bottom: 2rem;
+}
+
+.group-dining-middle p:last-of-type{
+    margin-bottom: 3.5rem;
+}
+.group-dining-container .story-title{
+    color: var(--secondary-font-color);   
+    font-family: var(--secondary-font) !important;
+    font-size: 7rem; 
+    font-weight: lighter !important;
+    line-height: 80%;
+}
+
+.group-dining-container .small{
+    font-size: 2.5rem;
+    font-weight: lighter;
+    color: black;
+}
+
+.group-dining-container .asterisk{
+    font-size: .9rem !important;
+}
+
+.group-dining-container .story-paragraph{
+    font-size: 1.4rem !important;
+}
+
+.group-dining-container .inquire-btn{
+    background-color: var(--main-font-color-dark) !important;
+    color: white !important;
+    font-size: 1rem !important;
+    padding: 1rem !important;
+    cursor: pointer;
+}
+
+.group-dining-container .inquire-btn:hover{
+    background-color: #997741 !important;
+}
+
+.group-dining-container {
+    width: 100%;
+}
+
+.group-dining-container .group-dining-locations{
+    margin-bottom: 7rem !important;
+}
+
+.group-dining-container .group-dining-locations .location{
+    padding: 0 2.5rem;
+    text-align: center;
+    font-family: var(--primary-font);
+    margin-bottom: 5rem;
+}
+
+.group-dining-container .group-dining-locations .location .location-img-container{
+    margin-bottom: 1.5rem;
+    border: 0.7rem solid #A68E77;
+    overflow: hidden;
+    background-color: black;
+}
+
+.group-dining-container .group-dining-locations .location .location-img-container:hover .location-img{
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+}
+
+.group-dining-container .group-dining-locations .location .location-img{
+    width: 100%;
+    background-repeat: no-repeat;
+    padding-top: 75%;
+    background-size: cover;
+    background-position: center center;
+    cursor: pointer;
+    transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+}
+.group-dining-container .group-dining-locations .location .location-details > *{
+    margin-bottom: 1rem;
+}
+
+.group-dining-container .group-dining-locations .location .location-details .location-heading{
+    font-family: 'Rough typewriter' , serif;
+    font-weight: lighter;
+    font-weight: bold;
+    font-size: 2.3rem;
+    color: black;
+}
+.group-dining-container .group-dining-locations .location .location-details h2{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: black;
+}
+
+.group-dining-container .group-dining-locations .location .location-details p{
+    font-size: 1.3rem;
+}
